@@ -1,6 +1,6 @@
 ---
 name: codex-obsidian-cli-devtools
-description: Use this skill when the user needs Obsidian runtime debugging or developer introspection through official desktop Obsidian CLI developer commands, including devtools, console/errors capture, DOM/CSS inspection, screenshots, CDP calls, and controlled eval. Do not use for regular note CRUD, task/property editing, Sync/Publish administration, or community tooling outside the official CLI.
+description: Use when the user needs Obsidian runtime debugging through official desktop CLI developer commands, including devtools, console/errors capture, DOM/CSS inspection, screenshots, CDP calls, or controlled eval.
 ---
 
 # Obsidian CLI Devtools
@@ -83,7 +83,4 @@ Always return:
 
 ## References
 
-- `references/codex-obsidian-cli-devtools-playbook.md`
-- `references/limitations-and-boundaries.md`
-- `references/validation.md`
-- `references/source-links.md`
+Detailed reference files are intentionally not bundled; use this skill contract plus the current official Obsidian CLI help output.

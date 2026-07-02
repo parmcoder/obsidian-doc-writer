@@ -1,6 +1,6 @@
 ---
 name: codex-obsidian-cli
-description: Use this skill when the user wants local Obsidian note or metadata work done primarily through documented official desktop `obsidian` CLI commands, with limited local vault filesystem support when needed for parent folders, path checks, ambiguity resolution, verification, or safe vault structure operations. Best for local vault search, note reads, exact-path note updates, backlinks, tasks, properties, templates, and local history. Do not use it for runtime admin, devtools diagnostics, workspace/navigation administration, community tools, `obsidian://` launcher tasks, Headless Sync or Publish workflows, or plugin-specific APIs.
+description: Use when local Obsidian note or metadata work should run through documented official desktop `obsidian` CLI commands, including search, reads, exact-path edits, backlinks, tasks, properties, templates, and local history.
 ---
 
 # Obsidian Official CLI
@@ -169,10 +169,4 @@ Templates and history:
 
 ## References
 
-For command patterns, capability examples, and manual validation workflows, use:
-- `references/obsidian-cli-command-playbook.md`
-- `references/capability-cookbook.md`
-- `references/limitations-and-boundaries.md`
-- `references/validation.md`
-- `references/maintenance-notes.md`
-- `references/source-links.md`
+Detailed reference files are intentionally not bundled; use this skill contract plus the current official Obsidian CLI help output.

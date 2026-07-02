@@ -1,6 +1,6 @@
 ---
 name: codex-obsidian-cli-workspace
-description: Use this skill when the user needs official desktop Obsidian CLI workspace, vault, tab, navigation, and utility operations, including workspace save/load/delete, tab and recent-file handling, vault info/listing, random/unique note navigation helpers, web viewer, and wordcount. Keep this skill separate from note CRUD/tasks/properties/history, runtime admin, devtools diagnostics, and Sync/Publish operations.
+description: Use when the user needs official desktop Obsidian CLI workspace, vault, tab, navigation, recent-file, random/unique note, web viewer, or wordcount operations.
 ---
 
 # Obsidian CLI Workspace and Navigation
@@ -96,7 +96,4 @@ Navigation and utility:
 
 ## References
 
-- `references/obsidian-cli-workspace-navigation-playbook.md`
-- `references/limitations-and-boundaries.md`
-- `references/validation.md`
-- `references/source-links.md`
+Detailed reference files are intentionally not bundled; use this skill contract plus the current official Obsidian CLI help output.

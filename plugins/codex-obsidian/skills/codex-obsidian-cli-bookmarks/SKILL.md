@@ -1,6 +1,6 @@
 ---
 name: codex-obsidian-cli-bookmarks
-description: Use this skill when the user needs official desktop Obsidian CLI Bases or Bookmarks workflows, including base discovery, view/query operations, base item creation, and bookmark management. Keep this skill separate from general note CRUD, runtime admin, Sync/Publish, and devtools diagnostics.
+description: Use when the user needs official desktop Obsidian CLI Bases or Bookmarks workflows, including base discovery, view queries, base item creation, and bookmark management.
 ---
 
 # Obsidian CLI Bases and Bookmarks
@@ -83,7 +83,4 @@ Bookmarks:
 
 ## References
 
-- `references/obsidian-cli-bases-bookmarks-playbook.md`
-- `references/limitations-and-boundaries.md`
-- `references/validation.md`
-- `references/source-links.md`
+Detailed reference files are intentionally not bundled; use this skill contract plus the current official Obsidian CLI help output.

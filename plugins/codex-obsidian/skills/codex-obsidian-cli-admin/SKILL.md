@@ -1,6 +1,6 @@
 ---
 name: codex-obsidian-cli-admin
-description: Use this skill when the user needs Obsidian runtime administration through official desktop CLI commands for plugins, restricted mode, themes, CSS snippets, command catalog/hotkeys, or targeted command execution. Keep this skill separate from note CRUD, Sync/Publish, and devtools diagnostics.
+description: Use when the user needs Obsidian runtime administration through official desktop CLI commands for plugins, restricted mode, themes, CSS snippets, commands, hotkeys, or targeted command execution.
 ---
 
 # Obsidian CLI Runtime Admin
@@ -100,7 +100,4 @@ Command palette:
 
 ## References
 
-- `references/codex-obsidian-cli-admin-playbook.md`
-- `references/limitations-and-boundaries.md`
-- `references/validation.md`
-- `references/source-links.md`
+Detailed reference files are intentionally not bundled; use this skill contract plus the current official Obsidian CLI help output.

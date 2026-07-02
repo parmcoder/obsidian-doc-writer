@@ -1,6 +1,6 @@
 ---
 name: codex-obsidian-cli-sync-publish
-description: Use this skill when the user needs official desktop Obsidian CLI Sync workflows and, when detected as available, Publish workflows. This skill is for remote-side-effect operations and must use explicit intent, capability probing, and conservative safety checks.
+description: Use when the user needs official desktop Obsidian CLI Sync workflows or capability-gated Publish workflows with explicit intent, capability probing, and conservative remote-side-effect checks.
 ---
 
 # Obsidian CLI Sync and Publish
@@ -92,7 +92,4 @@ Publish:
 
 ## References
 
-- `references/obsidian-cli-sync-publish-playbook.md`
-- `references/limitations-and-boundaries.md`
-- `references/validation.md`
-- `references/source-links.md`
+Detailed reference files are intentionally not bundled; use this skill contract plus the current official Obsidian CLI help output.

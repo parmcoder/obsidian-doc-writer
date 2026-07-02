@@ -1,6 +1,6 @@
 ---
 name: codex-obsidian-writer
-description: Use when writing or restructuring technical documentation inside an existing Obsidian vault, especially for architecture notes, ADRs, runbooks, API docs, Mermaid diagrams, Canvas boards, or Bases indexes.
+description: Use when writing Obsidian technical docs such as ADRs, runbooks, API docs, Mermaid diagrams, Canvas boards, or Bases indexes.
 ---
 
 # Codex Obsidian Writer

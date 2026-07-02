@@ -34,3 +34,11 @@ This repository vendors selected skill content and assets from these upstream pr
 - Local copies of the upstream MIT license texts are stored in:
   - `licenses/codex-obsidian.MIT`
   - `licenses/obsidian-skills.MIT`
+
+## Runtime Tools
+
+The `codex-obsidian-web-import` skill can call Defuddle CLI when installed by the user.
+
+- Source: `https://github.com/kepano/defuddle`
+- License: MIT
+- Install surface: `npm install -g defuddle`

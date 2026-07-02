@@ -1,6 +1,6 @@
 ---
 name: codex-obsidian-web-import
-description: Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page. Do NOT use for URLs ending in .md — those are already markdown, use WebFetch directly.
+description: Use when importing a standard web page URL as clean Markdown with Defuddle CLI. Do not use for `.md` URLs.
 ---
 
 # Defuddle

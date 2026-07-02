@@ -1,6 +1,6 @@
 ---
 name: codex-obsidian-cli-workflows
-description: Use this skill for one-command Obsidian workflow orchestration across the existing six domain skills. This skill owns named workflow command IDs and preview/apply execution policy, while delegating all direct official CLI command execution to the appropriate domain skill.
+description: Use when the user requests a named one-command Obsidian workflow, preview/apply orchestration plan, or multi-step vault workflow across official CLI domain skills.
 ---
 
 # Obsidian CLI Workflows
@@ -22,7 +22,7 @@ Do not use this skill when:
 
 ## Public workflow command interface
 
-Workflow invocation must use a named command ID from `references/workflow-registry.md`.
+Workflow invocation must use a named command ID listed in this skill.
 
 No natural-language-only invocation mode in this release:
 - require explicit `workflow_id=<command-id>`
@@ -74,12 +74,8 @@ Always return:
 
 ## Workflow registry
 
-All workflow definitions and guardrails are in:
-- `references/workflow-registry.md`
+Detailed reference files are intentionally not bundled. Supported workflow IDs must be listed directly in this skill before use.
 
 ## References
 
-- `references/playbook.md`
-- `references/limitations-and-boundaries.md`
-- `references/validation.md`
-- `references/source-links.md`
+Use this skill contract plus the current official Obsidian CLI help output.
