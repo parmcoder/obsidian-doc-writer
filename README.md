@@ -27,6 +27,16 @@ codex plugin marketplace add parmcoder/obsidian-doc-writer
 codex plugin add obsidian-doc-writer@obsidian-doc-writer
 ```
 
+To use this plugin alongside [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) without creating a fork:
+
+```bash
+codex plugin marketplace add parmcoder/obsidian-doc-writer
+codex plugin add obsidian-doc-writer@obsidian-doc-writer
+~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo kepano/obsidian-skills --path skills
+```
+
+This installs the plugin from this repo and installs the Obsidian skills directly from GitHub into your local Codex skills directory. Restart Codex to pick up the added skills.
+
 ## Example Prompts
 
 - `Write an ADR for choosing Mermaid over Canvas for this flow.`
