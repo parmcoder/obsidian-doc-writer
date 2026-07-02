@@ -1,0 +1,20 @@
+{
+  "name": "obsidian-doc-writer",
+  "interface": {
+    "displayName": "Obsidian Doc Writer"
+  },
+  "plugins": [
+    {
+      "name": "obsidian-doc-writer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/obsidian-doc-writer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
