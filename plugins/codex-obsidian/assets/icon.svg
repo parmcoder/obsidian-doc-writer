@@ -1,11 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Codex Obsidian icon">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#6E55C8"/>
-      <stop offset="100%" stop-color="#2E234F"/>
+    <linearGradient id="obsidian" x1="30" y1="12" x2="96" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F5EFFF"/>
+      <stop offset=".24" stop-color="#8B6BE8"/>
+      <stop offset=".58" stop-color="#241936"/>
+      <stop offset="1" stop-color="#09070E"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="18" y1="20" x2="110" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#D7C8FF"/>
+      <stop offset="1" stop-color="#1C1429"/>
     </linearGradient>
   </defs>
-  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
-  <path d="M63 20 39 38v50l24 20 26-20V37L63 20Zm0 12 14 10v39L63 92 51 82V42l12-10Z" fill="#F3EEFF"/>
-  <path d="M43 44 63 30l20 14-7 7-13-9-13 9-7-7Zm7 39 13 10 13-10v8L63 102 50 91v-8Z" fill="#B9A9F0"/>
+  <rect x="8" y="8" width="112" height="112" rx="24" fill="#0F0B18"/>
+  <path d="M33 39 16 56v16l17 17M95 39l17 17v16L95 89" fill="none" stroke="url(#frame)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M64 18 39 42v48l25 24 25-24V42L64 18Z" fill="url(#obsidian)"/>
+  <path d="M64 18v96M39 42l25 27 25-27M39 90l25-21 25 21" fill="none" stroke="#F6F0FF" stroke-opacity=".66" stroke-width="2.5"/>
+  <path d="M50 32 64 69 78 32M50 96l14-27 14 27" fill="none" stroke="#A98CFF" stroke-opacity=".55" stroke-width="2"/>
 </svg>

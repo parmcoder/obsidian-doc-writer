@@ -23,11 +23,11 @@
       "Clean up an Obsidian note.",
       "Read a vault note with Obsidian CLI."
     ],
-    "brandColor": "#5C43A8",
+    "brandColor": "#241936",
     "websiteURL": "https://github.com/parmcoder/obsidian-doc-writer",
     "privacyPolicyURL": "https://github.com/parmcoder/obsidian-doc-writer/blob/main/PRIVACY.md",
     "termsOfServiceURL": "https://github.com/parmcoder/obsidian-doc-writer/blob/main/TERMS.md",
     "composerIcon": "./assets/icon.svg",
-    "logo": "./assets/logo.png"
+    "logo": "./assets/logo.svg"
   }
 }

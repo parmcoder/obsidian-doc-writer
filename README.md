@@ -1,20 +1,20 @@
 <p align="center">
-  <img src="plugins/codex-obsidian/assets/logo.png" alt="Codex Obsidian logo" width="360">
+  <img src="plugins/codex-obsidian/assets/logo.svg" alt="Codex Obsidian logo" width="520">
 </p>
 
 <p align="center">
-  <strong>Grade A Codex plugin for Obsidian workflows.</strong><br>
-  Local-first writing, open formats, and official desktop CLI operations in one installable bundle.
+  <strong>Codex Obsidian</strong><br>
+  A Grade A local-first Codex plugin for Obsidian writing, open formats, and official desktop CLI workflows.
 </p>
 
-Codex Obsidian combines a docs-first writer skill with Obsidian format skills and official desktop CLI workflow skills. The package is tuned for a clean Plugin Eval report: **100/100**, **Grade A**, **low risk**, with no failing checks or warnings.
+Codex Obsidian bundles Obsidian-focused writing, Markdown, Bases, Canvas, web import, and official desktop CLI skills behind one install surface. Current Plugin Eval result: **100/100**, **Grade A**, **low risk**.
 
-## Why It Works
+## Highlights
 
-- Grade A plugin surface: `Plugin Eval 100/100`
-- One install surface for writing, Markdown, Bases, Canvas, web import, and official CLI workflows
+- `Plugin Eval 100/100`
+- One install for Obsidian docs, open formats, web import, and CLI workflows
 - Explicit-only skill loading keeps trigger and invoke budgets small
-- Local-first by default; no hosted service, account system, analytics, or telemetry
+- Local-first: no hosted service, account system, analytics, or telemetry
 
 ## What It Adds
 
